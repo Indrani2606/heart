@@ -1,0 +1,9 @@
+Flask==2.3.2
+tensorflow==2.12.0
+numpy
+opencv-python
+Pillow
+tqdm
+requests
+kaggle
+matplotlib
