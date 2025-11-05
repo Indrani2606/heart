@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Heart Disease Predictor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Heart Disease Prediction</h1>
+    <form id="predictForm">
+      <label>Age: <input type="number" name="age"></label><br>
+      <label>Sex (1=male,0=female): <input type="number" name="sex"></label><br>
+      <label>Chest Pain Type (0-3): <input type="number" name="cp"></label><br>
+      <label>Resting BP: <input type="number" name="trestbps"></label><br>
+      <label>Cholesterol: <input type="number" name="chol"></label><br>
+      <label>Fasting BS (0/1): <input type="number" name="fbs"></label><br>
+      <label>Rest ECG (0-2): <input type="number" name="restecg"></label><br>
+      <label>Max HR: <input type="number" name="thalach"></label><br>
+      <label>Exercise Angina (0/1): <input type="number" name="exang"></label><br>
+      <label>Oldpeak: <input type="number" name="oldpeak" step="0.1"></label><br>
+      <label>Slope (0-2): <input type="number" name="slope"></label><br>
+      <label>CA (0-4): <input type="number" name="ca"></label><br>
+      <label>Thal (0-3): <input type="number" name="thal"></label><br>
+      <button type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
